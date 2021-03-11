@@ -1,0 +1,68 @@
+body {
+    height: 100%;
+    margin-top: 0;
+}
+
+.main {
+    position: relative;
+    width: 900px;
+    height: 100%;
+    margin: 0 auto 15px auto;
+}
+
+.colored {
+    background: linear-gradient(to right, rgba(69, 120, 222, 1) 0%, rgba(5, 143, 141, 1) 35%, rgba(5, 143, 141, 1) 100%);
+}
+
+.left-menu {
+    background-color: #F3A342;
+    font-size: fixed;
+    width: 250px;
+    border: 1px gray solid;
+}
+
+.img-div {
+    width: 180px;
+    height: 180px;
+    background: #F3A342;
+    border-radius: 100%;
+    box-shadow: 10px 10px 15px #DD943C, -9.91px -9.91px 15px #FFB248;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.name {
+    position: fixed;
+    left: 270px;
+    top: 0;
+}
+
+.lastname {
+    margin: 10px 0 0 0;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-shadow: 10px 10px 15px #DD943C, -9.91px -9.91px 15px #FFB248;
+}
+
+.firstname {
+    margin: 0;
+    font-weight: bold;
+    font-size: 40px;
+    color: #058F8D;
+    letter-spacing: 2px;
+}
+
+.icon-btn {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background: linear-gradient(145deg, #141414, #0E0E0E);
+    float: left;
+}
+
+.btn-i {
+    padding-left: 6px;
+    padding-top: 5px;
+}
