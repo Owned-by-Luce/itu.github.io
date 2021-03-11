@@ -1,13 +1,18 @@
 body {
     height: 100%;
     margin-top: 0;
+    background-color: #C4C4C4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .main {
-    position: relative;
+    position: fixed;
     width: 900px;
-    height: 100%;
-    margin: 0 auto 15px auto;
+    top: 15px;
+    bottom: 15px;
+    background-color: #DCDADD;
 }
 
 .colored {
@@ -16,9 +21,10 @@ body {
 
 .left-menu {
     background-color: #F3A342;
-    font-size: fixed;
+    position: fixed;
+    bottom: 15px;
+    top: 15px;
     width: 250px;
-    border: 1px gray solid;
 }
 
 .img-div {
@@ -27,42 +33,21 @@ body {
     background: #F3A342;
     border-radius: 100%;
     box-shadow: 10px 10px 15px #DD943C, -9.91px -9.91px 15px #FFB248;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 15px auto 0 auto;
 }
 
-.name {
-    position: fixed;
-    left: 270px;
-    top: 0;
+h1 {
+    font-family: 'Bitter', serif;
+    font-size: 20px;
+    color: white;
+    border-bottom: 2px white solid;
+    margin: 10px 10px 0 10px;
+    padding-bottom: 10px;
 }
 
-.lastname {
-    margin: 10px 0 0 0;
+.all-white {
     color: white;
     font-weight: bold;
-    font-size: 40px;
-    letter-spacing: 2px;
-    text-shadow: 10px 10px 15px #DD943C, -9.91px -9.91px 15px #FFB248;
-}
-
-.firstname {
-    margin: 0;
-    font-weight: bold;
-    font-size: 40px;
-    color: #058F8D;
-    letter-spacing: 2px;
-}
-
-.icon-btn {
-    width: 35px;
-    height: 35px;
-    border-radius: 100%;
-    background: linear-gradient(145deg, #141414, #0E0E0E);
-    float: left;
-}
-
-.btn-i {
-    padding-left: 6px;
-    padding-top: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
