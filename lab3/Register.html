@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Зар нэмэх</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+<div class="left-menu">
+    <ul>
+        <li style="padding-left: 21px;"><a href="index.html" type="none" style="color: gray"><i class="material-icons" style="padding-left: 2px; color: gray;">directions_car_filled</i>Зарууд
+            </a>
+        </li>
+        <br>
+        <li style="padding-left: 10px; border-left: #158DE6 solid 4px;"><a href="Register.html" type="none"
+                                                                           style="color: #158DE6"><i
+                class="material-icons" style="padding-left: 14px; color: #158DE6;">library_add</i><br>Зар нэмэх</a></li>
+    </ul>
+</div>
+
+<div class="menu">
+    <h1>Зар нэмэх</h1>
+    <form method="get" action="#">
+        <h2>Зарах машины мэдээлэл</h2>
+        <p>
+            <label><strong style="padding-right: 5px">Өнгө:</strong><input type="color" style="" autofocus required></label>
+            <br>
+            <label><strong style="padding-right: 27px">Үйлдвэрлэсэн огноо:</strong> <input type="date" required></label>
+            <br>
+            <label><strong style="padding-right: 5px">Үйлдвэрлэсэн компани:</strong> <input type="text" list="companies" required></label>
+            <br>
+            <label><strong style="padding-right: 78px">Машины нэр:</strong> <input type="text" required></label>
+            <br>
+            <label><strong style="padding-right: 148px">Үнэ:</strong> <input type="number" required></label>
+            <br>
+            <label><strong style="padding-right: 139px">Хроп:</strong> <input type="text" list="type" required></label>
+            <br>
+            <label><strong style="padding-right: 22px">Шатхуун зарцуулалт:</strong> 0<input type="range" min="0" max="20" value="3" list="type" required>20</label>
+            <br>
+            <label><strong style="padding-right: 105px">Зураг: </strong><input style="border: none" type="file"></label>
+            <br>
+            <label> <strong style="padding-right: 60px">Нэмэлт тайлбар:</strong> <input type="text"></label>
+
+            <datalist id="type">
+                <option value="Автомат"></option>
+                <option value="Механик"></option>
+            </datalist>
+
+            <datalist id="companies">
+                <option value="Toyota"></option>
+                <option value="Volkswagen"></option>
+                <option value="Daimler"></option>
+                <option value="Ford"></option>
+                <option value="Honda"></option>
+                <option value="Daimler"></option>
+                <option value="BMW"></option>
+                <option value="General Motors"></option>
+                <option value="Fiat Chrysler"></option>
+                <option value="Hyundai"></option>
+                <option value="Nissan"></option>
+            </datalist>
+        </p>
+        <h2>Өөрийн мэдээлэл</h2>
+        <p>
+            <label><strong style="padding-right: 5px">Утасны дугаар:</strong> <input type="tel" placeholder="(###) ####-####" pattern="\(\d{3}\) +\d{4}-\d{4}"
+                                         required></label> (###) ####-####
+            <br>
+            <label><strong style="padding-right: 72px">Email:</strong> <input type="email" placeholder="name@gmail.com" required></label>
+            <br>
+
+        </p>
+        <br>
+        <p style="border: none; padding-left: 70px;">
+            <input type="submit" value="Болсон">
+            <input type="reset" value="Дахин эхлэх">
+        </p>
+    </form>
+</div>
+</body>
+</html>
