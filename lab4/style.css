@@ -11,7 +11,7 @@ body {
 
 .card {
     position: relative;
-    top: 200px;
+    top: 150px;
     background-color: white;
     width: 900px;
     height: 400px;
@@ -86,7 +86,7 @@ h4 {
 .container {
     display: grid;
     position: relative;
-    top: 230px;
+    top: 180px;
     background-color: white;
     width: 900px;
     height: 400px;
