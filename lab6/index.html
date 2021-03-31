@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Seris</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body style="background-color: darkgreen">
+<div class="left-menu">
+    <div class="container">
+        <div class="top-menu">
+            <img alt="bug_fix-icon" class="logo" onclick="window.location = '../lab6/index.html'"
+                 src="../images/logo.png">
+            <div class="buttons">
+                <button style="color: var(--neon); text-shadow: 0 0 20px var(--neon);" onclick="window.location = '../lab6/index.html'">Нүүр</button>
+                <button>Бүх гаралтууд</button>
+                <label>
+                    <input placeholder="Хайх" type="text">
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card-container">
+
+        </div>
+    </div>
+</div>
+<div class="right-menu">
+    <div class="container">
+        <span class="username">Баярхүү.Лув</span>
+        <img alt="cat-face" class="avatar" src="../images/mycat.jpg">
+        <div style="width: 260px; display: block; border-top: 1px gray solid; position:absolute; top: 190px; right: 10px"></div>
+        <div class="point" style="height: 118px">
+            Points
+            <br>
+            <span>10000</span>
+            a17a7b0e-a225-464e-adfb-3e367bbd975a
+        </div>
+        <br>
+        <div class="point" style="height: 136px; padding: 6px">
+            <div class="slideshow-container">
+                <div class="mySlides fade"><img alt="anime" class="carousel" src="../images/ds.jpg" style="width:100%">
+                </div>
+                <div class="mySlides fade"><img alt="anime" class="carousel" src="../images/ft.png" style="width:100%">
+                </div>
+                <div class="mySlides fade"><img alt="anime" class="carousel" src="../images/rr.png" style="width:100%">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="app.js"></script>
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1
+        }
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 2000);
+    }
+</script>
+</html>
