@@ -1,4 +1,4 @@
-let SERVICE = "http://localhost:9965/api"
+let SERVICE = "http://124.158.110.117:9965/api"
 
 let pageable = {
     page: 1,
