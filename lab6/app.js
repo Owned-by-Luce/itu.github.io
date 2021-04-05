@@ -1,5 +1,5 @@
 let base64Flag = "data:image/png;base64,"
-let SERVICE = "http://owned-by-luce.github.io/itu.github.io";
+let SERVICE = "https://owned-by-luce.github.io/itu.github.io";
 
 fetch(SERVICE + "/files/pageable.txt", {
     method: "POST",
