@@ -100,5 +100,8 @@ function call4() {
     }
 
     alert("Өгүүлбэр: " + sentence + "\nЭр үг: " + m + "\nЭм үг: " + f);
+}
+
+function call5() {
 
 }
