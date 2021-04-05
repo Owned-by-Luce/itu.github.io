@@ -1,4 +1,4 @@
-let SERVICE = "https://owned-by-luce.github.io/itu.github.io";
+let SERVICE = "http://owned-by-luce.github.io/itu.github.io";
 let table = document.querySelector(".table");
 let uuid = window.location.hash.replace("#", "");
 let base64Flag = "data:image/png;base64,"
