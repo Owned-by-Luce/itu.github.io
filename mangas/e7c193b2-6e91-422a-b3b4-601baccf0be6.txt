@@ -1,0 +1,33 @@
+{
+    "uuid": "e7c193b2-6e91-422a-b3b4-601baccf0be6",
+    "nameMon": "Энэ бол илт хуурамч гэрлэлт юм",
+    "nameEng": "This Is An Obvious Fraudulent Marriage",
+    "author": "jade, Park Haedam, Pear Juice",
+    "status": "Үргэлжилж байгаа",
+    "genres": "Romance, Webtoons",
+    "date": "2015.07.05 18:00",
+    "user": "Seris",
+    "summary": "The Sophen country had been destroyed by the empire. The sole daughter of a count family, Leylin Efran, had to find a husband to be able to inherit her family. So she wouldn't have to suffer through loveless marriage, Leylin decided to find a husband to have a one-year contract marriage with. In the middle of her quest, a young and dashing man appeared before her. Leylin was convinced this is the right man for her, but is he truly the answer to Leylin's perilous situation?",
+    "chapters": [
+        {
+            "uuid": "27af232b-8638-4e8c-8953-5fae6b6ae272",
+            "nameMon": "Бүлэг 2",
+            "chapter": 2,
+            "count": 169,
+            "date": "12 өдрийн өмнө"
+        },
+        {
+            "uuid": "b33cf5d9-3803-4fb8-bf7f-0c8cf07aa9e8",
+            "nameMon": "Бүлэг 1",
+            "chapter": 1,
+            "count": 710,
+            "date": "14 өдрийн өмнө"
+        },
+        {
+            "uuid": "7476c8a8-9d2a-4fc0-bb63-888a31cf49cc",
+            "nameMon": "Оршил",
+            "count": 69,
+            "date": "15 өдрийн өмнө"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "uuid": "4c0b4223-af61-4583-be28-33b30b3d7b89",
+        "mangaName": "Шэн Зэ",
+        "chapter": 1,
+        "date": "5 өдрийн өмнө"
+    },
+    {
+        "uuid": "7eabd154-7a67-48c2-b955-1715f90c1acd",
+        "mangaName": "Perfect Mine-romance",
+        "chapter": 1,
+        "date": "5 өдрийн өмнө"
+    },
+    {
+        "uuid": "1d447d63-a170-46c4-8103-91fbbf481636",
+        "mangaName": "Crimson Karma",
+        "chapter": 1,
+        "date": "5 өдрийн өмнө"
+    },
+    {
+        "uuid": "36245bf0-e1d0-4aed-9703-5f21858972e8",
+        "mangaName": "Attack On Titan",
+        "chapter": 1,
+        "date": "10 өдрийн өмнө"
+    },
+    {
+        "uuid": "b2e4ce32-5276-457e-b869-6741fbd231ea",
+        "mangaName": "4000 жилийн дараа агуу илбэчин эргэж ирдэг",
+        "chapter": 1,
+        "date": "14 өдрийн өмнө"
+    },
+    {
+        "uuid": "e7c193b2-6e91-422a-b3b4-601baccf0be6",
+        "mangaName": "Энэ бол илт хуурамч гэрлэлт юм",
+        "date": "15 өдрийн өмнө"
+    }
+]

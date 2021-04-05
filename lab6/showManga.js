@@ -1,4 +1,4 @@
-let SERVICE = "http://124.158.110.117:9965/api"
+let SERVICE = "http://localhost:9000/itu.github.io";
 let table = document.querySelector(".table");
 let uuid = window.location.hash.replace("#", "");
 let base64Flag = "data:image/png;base64,"
@@ -6,7 +6,7 @@ let base64Flag = "data:image/png;base64,"
 posterImage = document.querySelector("#poster");
 posterImage.style.display = "none";
 
-fetch(SERVICE + "/manga/uuid?uuid=" + uuid, {
+fetch(SERVICE + "/mangas/" + uuid + ".txt", {
     method: "GET",
     headers: {
         "Content-Type": "application/json"
@@ -38,7 +38,7 @@ fetch(SERVICE + "/manga/uuid?uuid=" + uuid, {
 });
 
 let poster = null;
-fetch(SERVICE + "/manga/poster?uuid=" + uuid, {
+fetch(SERVICE + "/poster/" + uuid + ".jpg", {
     method: "GET",
     headers: {
         "Content-Type": "image/png"
@@ -73,7 +73,7 @@ function read(parentUuid, uuid, chapter, nameMon) {
     let container = document.querySelector("#image-layout");
 
     container.innerHTML = "";
-    fetch(SERVICE + "/manga/chapter?parent_uuid=" + parentUuid + "&uuid=" + uuid, {
+    fetch(SERVICE + "/mangas/chapter/" + parentUuid + "/" + uuid + "/manga.jpg", {
         method: "GET",
         headers: {
             "Content-Type": "image/png"

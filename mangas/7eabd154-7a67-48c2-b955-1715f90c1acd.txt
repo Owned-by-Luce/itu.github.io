@@ -1,0 +1,48 @@
+{
+    "uuid": "7eabd154-7a67-48c2-b955-1715f90c1acd",
+    "nameMon": "Perfect Mine-romance",
+    "nameEng": "Perfect Mine-romance",
+    "author": "Emongeguri, Lemonfrog",
+    "status": "Үргэлжилж байгаа",
+    "genres": "Action, Drama, Shoujo, Isekai",
+    "date": "2021.02.25 15:00",
+    "user": "Seris",
+    "summary": "Kasiya Del Roman is a soldier crafted to become an assassin. She lost her human emotions long ago and lived her life as a simple tool, just to be thrown away in her final moments. She couldn’t even die a proper death as she opened her eyes to a battlefield of a different world. Will she live the same life she did in her original world",
+    "chapters": [
+        {
+            "uuid": "727a5286-b1cd-4ffd-aad0-c7f1a0aee5ec",
+            "nameMon": "Бүлэг 5",
+            "chapter": 5,
+            "count": 69,
+            "date": "5 өдрийн өмнө"
+        },
+        {
+            "uuid": "95001966-5a39-40a7-8cab-4353857fffd6",
+            "nameMon": "Бүлэг 4",
+            "chapter": 4,
+            "count": 69,
+            "date": "5 өдрийн өмнө"
+        },
+        {
+            "uuid": "c6f74b7f-166a-4347-998c-0df8c43f3ad6",
+            "nameMon": "Бүлэг 3",
+            "chapter": 3,
+            "count": 69,
+            "date": "5 өдрийн өмнө"
+        },
+        {
+            "uuid": "ada1e154-3773-4911-9155-6cce93028d86",
+            "nameMon": "Бүлэг 2",
+            "chapter": 2,
+            "count": 69,
+            "date": "5 өдрийн өмнө"
+        },
+        {
+            "uuid": "78e1301b-d5d5-46c1-bae2-c70bb835f331",
+            "nameMon": "Бүлэг 1",
+            "chapter": 1,
+            "count": 69,
+            "date": "5 өдрийн өмнө"
+        }
+    ]
+}

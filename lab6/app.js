@@ -1,24 +1,17 @@
-let SERVICE = "http://124.158.110.117:9965/api"
-
-let pageable = {
-    page: 1,
-    size: 15,
-}
-
 let base64Flag = "data:image/png;base64,"
+let SERVICE = "http://localhost:9000/itu.github.io";
 
-fetch(SERVICE + "/manga/all/manga/wrapper/pageable", {
+fetch(SERVICE + "/files/pageable.txt", {
     method: "POST",
     headers: {
         "Content-Type": "application/json"
     },
-    body: JSON.stringify(pageable),
 }).then(r => {
     let container = document.querySelector(".card-container");
     r.json().then(r => {
         r.forEach(e => {
             let poster = null;
-            fetch(SERVICE + "/manga/poster?uuid=" + e.uuid, {
+            fetch(SERVICE + "/poster/" + e.uuid + ".jpg", {
                 method: "GET",
                 headers: {
                     "Content-Type": "image/png"

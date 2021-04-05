@@ -1,0 +1,34 @@
+{
+    "uuid": "36245bf0-e1d0-4aed-9703-5f21858972e8",
+    "nameMon": "Attack On Titan",
+    "nameEng": "Attack On Titan",
+    "author": "Isayama Hajime",
+    "status": "Үргэлжилж байгаа",
+    "genres": "Action, Adult, Adventure, Comedy, Doujinshi, Drama, Fantasy, Horror, Mature, Mystery, Psychological, Shounen, Tragedy",
+    "date": "2016.02.25 15:00",
+    "user": "Seris",
+    "summary": "Attack on Titan Manga is a series created by Hajime Isayama. The series is based on a fictional story of humanity’s last stand against man-eating giant creatures known as Titans. The series commenced in 2009 and has been going on for 6 years now. Attack on Titans manga is expected to continue with the success, and even get better with time. According to the series’ editor Kuwakubo Shintaro, there are approximately 3 years’ worth of chapters yet to be published for the extensively popular manga.",
+    "chapters": [
+        {
+            "uuid": "a36aad6c-2bfc-436b-a9f8-62bdf98ea7bd",
+            "nameMon": "Бүлэг 3",
+            "chapter": 3,
+            "count": 906,
+            "date": "10 өдрийн өмнө"
+        },
+        {
+            "uuid": "d84aa3ca-45f1-461d-bcb1-8e2f44cb7bc3",
+            "nameMon": "Бүлэг 2",
+            "chapter": 2,
+            "count": 456,
+            "date": "10 өдрийн өмнө"
+        },
+        {
+            "uuid": "cdcd91a0-5bcb-4831-bd59-b8d298798e01",
+            "nameMon": "Бүлэг 1",
+            "chapter": 1,
+            "count": 200000,
+            "date": "10 өдрийн өмнө"
+        }
+    ]
+}
