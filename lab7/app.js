@@ -103,5 +103,31 @@ function call4() {
 }
 
 function call5() {
+    let davhar = parseInt(window.prompt("Хэдэн давхар вэ?"));
+    let orts = parseInt(window.prompt("Хэдэн орцтой вэ?"))
+    let haalga = parseInt(window.prompt("Нэг давхартаа хэдэн хаалгатай вэ?"))
+    let n = parseInt(window.prompt("Хайх тоот оруул"));
 
+    let i;//Орц
+    let j;//Давхар
+    let found = false;//Олдсон эсэх
+    let c = 1;//Тоот тоолуур
+
+    for (i = 1; i <= orts; i++) {
+        for (j = 1; j <= davhar; j++) {
+            for (let k = 1; k <= haalga; k++) {
+                if (c === n) {
+                    found = true;
+                    break;
+                }
+                c++;
+            }
+            if (found) break;
+        }
+        if (found) break;
+    }
+
+    if (found) {
+        alert(`${i}-р орц ${j}-р давхар ${n}-р хаалга`);
+    } else alert("Олдсонгүй тоотоо зөв өгнө үү!");
 }
