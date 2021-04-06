@@ -2,18 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>lab 7</title>
+    <style>
+        button {
+            margin: 0 auto 30px auto;
+            border: 0;
+            width: 460px;
+            height: 100px;
+            font-size: 18px;
+            background: linear-gradient(145deg, #B1C4C6, #798688);
+            border-radius: 10px;
+            box-shadow: 10px 10px 15px #889698, -9.91px -9.91px 15px #A2B4B6;
+            cursor: pointer;
+            outline: none;
+        }
+
+        button:hover {
+            box-shadow: inset 10px 10px 15px #889698, inset -9.91px -9.91px 15px #A2B4B6;
+        }
+
+        body {
+            background: #95A5A7;
+        }
+    </style>
 </head>
 <body>
-<button onclick="call1()">Бодлого 1</button>
-<button onclick="call2()">Бодлого 2</button>
-<button onclick="call3()">Бодлого 3</button>
-<button onclick="call4()">Бодлого 4</button>
-<button onclick="call5()">Бодлого 5</button>
-<div>result</div>
+<button onclick="call1()"><strong>Бодлого 1.</strong> Гараас өгсөн 2 тооны цифрүүдийн нийлбэрийг ол</button><br>
+<button onclick="call2()"><strong>Бодлого 2.</strong> Гараас өгсөн нууц үгийг хүчтэй байна уу үгүй юу гэдгийг шалга (Хүчтэй гэдэгт тэмдэгтийн ур 10-аас дээш, Ядаж 1 том үсэг, Ядаж 1 тоо, Ядаж нэг тусгай тэмдэг байна)</button><br>
+<button onclick="call3()"><strong>Бодлого 3.</strong> Гараас өгсөн тоо хүртэл бүх анхны тоонуудыг хэвлээд, нийлбэрийг мөн хэвлэ</button><br>
+<button onclick="call4()"><strong>Бодлого 4.</strong> Хувьсагчид хадгалагдаж байгаа өгүүлбэрт хэдэн эр үг хэдэн эм үг байгааг тоол</button><br>
+<button onclick="call5()"><strong>Бодлого 5.</strong> Байрны давхар, орц, давхар дахь хаалгааны тоог өгсөн бөгөөд 1-р орцны 1 давхарын эхний хаалга 1 тоот бол гараас өгсөн тоот хэддүгээр орцны хэдэн давхарын хэд дэх хаалга вэ гэдгийг ол</button><br>
 </body>
 <script src="app.js"></script>
 </html>
