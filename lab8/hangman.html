@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Hangman</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<br>
+<br>
+<div class="h-container">
+    <button class="btn-back" onclick="window.location = '../lab8/index.html'"><img alt="back" class="icon"
+                                                                                   src="../icons/back.png">Буцах
+    </button>
+    <div class="lives-container">
+    </div>
+    <br>
+    <br>
+    <span class="question">
+        <b><u>Асуулт:</u></b> <span id="question"></span>
+    </span>
+    <br>
+    <br>
+    <label>
+        <u><b>Хариулт:</b></u>
+        <input id="value" placeholder="Хариултаа бичнэ үү" type="text">
+
+    </label>
+    <br>
+    <br>
+    <br>
+    <button accesskey="s" class="submit" onclick="next()">Шалгах</button>
+</div>
+
+<div class="dialog">
+    <div class="window">
+        <img id="dialog-image" alt="trophy icon" src="../icons/trophy.png">
+        <br>
+        <span id="dialog-msg">Та хожлоо</span>
+        <button onclick="reset()" class="btn-reset" style="width: 100px; margin-left: 30px;">Дахин тоглох</button>
+        <button onclick="window.location = '../lab8/index.html'" class="back" style="width: 80px">Буцах</button>
+    </div>
+</div>
+
+</body>
+<script src="hangmanController.js"></script>
+</html>
