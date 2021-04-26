@@ -9,21 +9,29 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-<button class="btn-back" onclick="window.location = '../lab8/index.html'"><img alt="back" class="icon"
-                                                                               src="../icons/back.png">Буцах
-</button>
-<br>
-<label>Овог: <input id="lastname" required style="margin-left: 50px" type="text"></label>
-<br>
-<label>Нэр: <input id="firstname" required style="margin-left: 66px" type="text"></label>
-<br>
-<label>Нууц үг: <input id="password" required type="password"></label>
-<br>
-<label>И-мэйл: <input id="email" required type="email"></label>
-<br>
-<label>Регистр: <input id="regnum" required type="text"></label>
-<br>
-<label>Төрсөн огноо: <input data-date-format="yyyy.MM.dd" id="birthDate" required type="date"></label>
+<div class="h-container" style="width:480px">
+    <button class="btn-back" onclick="window.location = '../lab8/index.html'"><img alt="back" class="icon" src="../icons/back.png">Буцах</button>
+    <br>
+    <br>
+    <label>Овог: <input id="lastname" required style="margin-left: 50px" type="text"></label>
+    <br>
+    <label>Нэр: <input id="firstname" required style="margin-left: 66px" type="text"></label>
+    <br>
+    <label>Нууц үг: <input id="password" required type="password"></label>
+    <br>
+    <label>И-мэйл: <input id="email" required type="email"></label>
+    <br>
+    <label>Регистр: <input id="regnum" required type="text"></label>
+    <br>
+    <label>Төрсөн огноо: <input data-date-format="yyyy.MM.dd" id="birthDate" required type="date"></label>
+    <br>
+    <br>
+    <button class="submit" onclick="submit()">Шалгах</button>
+</div>
+<div class="notification">
+    <div class="caption">Caption</div>
+    <div class="desc">Description</div>
+</div>
 </body>
 <script src="superValidatorController.js"></script>
 </html>
