@@ -49,7 +49,6 @@ function think() {
 
     let add = operators.indexOf("+");
     while (add !== -1) {
-        // using parseFloat is necessary, otherwise it will result in string concatenation :)
         numbers.splice(add, 2, parseFloat(numbers[add]) + parseFloat(numbers[add + 1]));
         operators.splice(add, 1);
         add = operators.indexOf("+");
