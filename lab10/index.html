@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Javascript - Тооны машин</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <button class="neumo" onclick="writeListener('7')">7</button>
+    <button class="neumo" onclick="writeListener('8')">8</button>
+    <button class="neumo" onclick="writeListener('9')">9</button>
+    <button class="neumo symbol" onclick="writeListener('+')">+</button>
+    <br>
+    <button class="neumo" onclick="writeListener('4')">4</button>
+    <button class="neumo" onclick="writeListener('5')">5</button>
+    <button class="neumo" onclick="writeListener('6')">6</button>
+    <button class="neumo symbol" onclick="writeListener('-')">-</button>
+    <br>
+    <button class="neumo" onclick="writeListener('1')">1</button>
+    <button class="neumo" onclick="writeListener('2')">2</button>
+    <button class="neumo" onclick="writeListener('3')">3</button>
+    <button class="neumo symbol" onclick="writeListener('*')">*</button>
+    <br>
+    <button class="neumo" onclick="writeListener('0')" style="width: 135px; border-radius: 20px">0</button>
+    <button class="neumo" onclick="writeListener('.')">.</button>
+    <button class="neumo symbol" onclick="writeListener('/')">/</button>
+    <label>
+        <input class="textField" disabled="true" type="text" value="0">
+    </label>
+    <button class="neumo" onclick="deleteAll()"
+            style="outline: none;float: right; margin-top: 25px;border: 1px dashed white">X
+    </button>
+    <br>
+    <button class="neumo" onclick="think()"
+            style="outline: none;margin-top: 25px; width: 315px; border-radius: 25px; border: 1px white solid">Бодох
+    </button>
+</div>
+</body>
+<script src="calculator.js"></script>
+</html>

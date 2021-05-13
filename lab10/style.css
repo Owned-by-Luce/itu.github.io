@@ -1,0 +1,49 @@
+body {
+    background-color: #656565;
+}
+
+.neumo {
+    cursor: pointer;
+    background: #656565;
+    border-radius: 100%;
+    box-shadow: 10px 10px 15px #5C5C5C, -9.91px -9.91px 15px #6E6E6E;
+    border: none;
+    height: 60px;
+    width: 60px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    font-size: 26px;
+    margin: 5px;
+}
+
+.neumo:hover {
+    background: linear-gradient(145deg, #787878, #525252);
+    box-shadow: inset 10px 10px 15px #5C5C5C, inset -9.91px -9.91px 15px #6E6E6E;
+}
+
+.symbol {
+    margin-left: 25px;
+}
+
+.container {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 315px;
+}
+
+.textField {
+    border: 1px dashed white;
+    color: white;
+    outline: none;
+    font-size: 26px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 25px;
+    margin-top: 25px;
+    height: 50px;
+    width: 200px;
+    background: #656565;
+    box-shadow: 10px 10px 15px #5C5C5C, -9.91px -9.91px 15px #6E6E6E;
+}
