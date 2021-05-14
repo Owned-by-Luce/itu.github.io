@@ -10,12 +10,14 @@
 </head>
 <body>
 <div class="container">
-    <label>
-        <input class="textField" disabled="true" type="text" value="0">
-    </label>
-    <button class="neumo" onclick="deleteAll()"
-            style="outline: none;float: right;border: 1px dashed white; width: 50px; height: 50px; position:relative; top: 20px; right: 10px">X
-    </button>
+    <div style="width: 315px">
+        <label>
+            <input class="textField" disabled="true" type="text" value="0">
+        </label>
+        <button class="neumo" onclick="deleteAll()"
+                style="box-shadow: inset 10px 10px 15px #5C5C5C, inset -9.91px -9.91px 15px #6E6E6E; outline: none;float: right;border: 1px dashed white; width: 51px; height: 51px; position: absolute; top: 21px; right: 10px">X
+        </button>
+    </div>
     <br>
     <br>
     <button class="neumo" onclick="writeListener('7')">7</button>
