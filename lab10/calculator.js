@@ -76,6 +76,7 @@ function writeListener(input) {
  */
 function deleteLast() {
     textField.value = textField.value.slice(0, -1);
+    if (textField.value === "") textField.value = "0";
     numbers.pop();
 }
 
