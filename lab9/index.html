@@ -2,12 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Cat - Popular cat breed, cat food</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        .mySlides {
+            display: none;
+        }
+    </style>
 </head>
 <body>
-хийж байгаа
+<div class="container">
+    <div class="row1">
+        <img alt="cat, british shorthair cat, gray cat, orange eyes cat" src="../images/cat/catBG.jpg">
+        <h1>Get to know about cat breeds!</h1>
+    </div>
+    <div class="row2">
+        <br>
+        <div class="card-container">
+            <img alt="domestic cat breed, cat" class="domestic" src="../images/mycat.jpg">
+            <div class="card">
+                The <strong>cat (Felis catus)</strong> is a domestic species of small carnivorous mammal. It is the only
+                domesticated species in the family Felidae and is often referred to as the <strong>domestic cat</strong>
+                to distinguish it from the wild members of the family. A cat can either be a <strong>house cat</strong>,
+                a farm cat or a feral cat; the latter ranges freely and avoids human contact. Domestic cats are valued
+                by humans for companionship and their ability to hunt rodents. About 60 <strong>cat breeds</strong> are
+                recognized by various cat registries.
+            </div>
+        </div>
+        <div class="item1">
+            <img alt="cat transparent icon" src="../images/cat/icon1.png" style="margin-left: 50px">
+            <h3><a href="https://en.wikipedia.org/wiki/Cat" style="color: black" title="More information about cat">As
+                of 2021 there are an estimated 220 million owned and 480 million stray cats in the world. </a></h3>
+        </div>
+        <div class="item2">
+            <img alt="cat transparent icon" src="../images/cat/icon2.png" style="margin-left: 50px">
+            <h3><a href="https://en.wikipedia.org/wiki/Cat" style="color: black" title="Cat history">Cats were first
+                domesticated in the Near East around 7500 BC.</a></h3>
+        </div>
+    </div>
+    <div style="position:relative; top: -267px">
+        <img alt="bengal cat breed" class="mySlides" src="../images/cat/cat1.jpg" style="width:100%">
+        <img alt="maine coon cat breed" class="mySlides" src="../images/cat/cat2.jpg" style="width:100%">
+        <img alt="british shorthair cat breed" class="mySlides" src="../images/cat/cat3.jpg" style="width:100%">
+        <img alt="siamese cat breed, siam cat breed" class="mySlides" src="../images/cat/cat4.jpg" style="width:100%">
+        <img alt="sphynx cat breed" class="mySlides" src="../images/cat/cat5.jpg" style="width:100%">
+        <img alt="ragdoll cat breed" class="mySlides" src="../images/cat/cat6.jpg" style="width:100%">
+        <img alt="bombay cat breed" class="mySlides" src="../images/cat/cat7.jpg" style="width:100%">
+
+        <button class="btn" onclick="plusDivs(-1)">&#10094; Previous</button>
+        <button class="btn" onclick="plusDivs(1)" style="float: right">Next &#10095;</button>
+    </div>
+</div>
+<script>
+    let slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+        let i;
+        let x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = x.length
+        }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+    }
+</script>
 </body>
 </html>
